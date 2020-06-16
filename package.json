@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "cors-proxy-worker-v2",
+  "version": "2.0.0",
+  "description": "An online CORS proxy using Cloudflare Workers to expose as a consumible service wich adds necessary CORS headers to a third party API response",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'",
+    "start": "wrangler preview --watch",
+    "deploy": "wrangler publish"
+  },
+  "author": "Leonardo Manzella <leonardo.manzella@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
